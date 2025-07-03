@@ -125,6 +125,28 @@ function App() {
                                 </div>
                             ))}
                         </div>
+                        {/* OpenAI ChatGPT Link Button */}
+                        <a
+                            href="https://chat.openai.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                display: 'block',
+                                margin: '0 auto 18px auto',
+                                width: 'fit-content',
+                                background: '#10a37f',
+                                color: '#fff',
+                                padding: '10px 24px',
+                                borderRadius: '6px',
+                                fontWeight: 'bold',
+                                textDecoration: 'none',
+                                fontSize: '16px',
+                                boxShadow: '0 2px 8px rgba(16,163,127,0.10)',
+                                transition: 'background 0.2s',
+                            }}
+                        >
+                            Try real ChatGPT
+                        </a>
                         <form onSubmit={handleChatSubmit} style={{ display: 'flex', gap: '10px' }}>
                             <input
                                 type="text"
